@@ -27,7 +27,6 @@ acumulator += 20; // Atribui o valor 20 a variável acumulator, mesma coisa que 
 acumulator++; // Atribui o valor 1 a variável acumulator, mesma coisa que acumulator = acumulator + 1.
 console.log(acumulator); // Exibe o valor da variável acumulator no console.
 
-<<<<<<< HEAD
 //* > For(contador; condição; incremento/decremento).
 
 /* 
@@ -36,8 +35,9 @@ console.log(acumulator); // Exibe o valor da variável acumulator no console.
 
 // O for(contador; condição; incremento) cria um contador que começa do 0, depois verifica se o contador é menor que 10, se for ele executa o bloco de instruções e depois incrementa o contador em 1.
 for(let i = 0; i < 10; i++) {
-  console.log(i);
-=======
+  console.log(i); // Exibe o valor do contador no console.
+}
+
 // Resolvendo o problema inicial:
 
 let nota; // Declara a variável nota responsável por armazenar as notas.
@@ -48,7 +48,6 @@ for (let i = 1; i <= 3; i++) {
   nota = Number(input(`Digite a ${i}° nota: `)); // Solicita ao usuário que digite a nota e armazena o resultado em number na variável nota.
 
   sum += nota; // Atribui a soma das notas a variável sum, mesma coisa que sum = sum + nota.
->>>>>>> 0ca62b02440068fa0382776b7b1d3e36b95ecd5b
 }
 
 console.log(`A média do aluno é ${sum / 3}`); // Exibe a média das notas no console.

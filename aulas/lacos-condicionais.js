@@ -1,14 +1,10 @@
 //* > Laço condicional.
 
-<<<<<<< HEAD:aulas/estruturas-de-repeticao.js
 /*
-  Uma estrutura de repetição é uma estrutura de controle que permite que um bloco de instruções seja executado repetidas vezes, dependendo de uma condição booleana.
+  Um laço condicional é uma estrutura de repetição que permite que um bloco de instruções seja executado repetidas vezes, dependendo de uma condição booleana.
 */
 
 //* > Prompt-sync e Math.random().
-=======
-// O laço condicional é uma estrutura de repetição que permite que um bloco de instruções seja executado repetidas vezes, dependendo de uma condição booleana.
->>>>>>> 0ca62b02440068fa0382776b7b1d3e36b95ecd5b:aulas/lacos-condicionais.js
 
 const input = require('prompt-sync')(); // Importação da biblioteca prompt-sync e armazenamento na constante input.
 
